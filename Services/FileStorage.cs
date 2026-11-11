@@ -12,7 +12,7 @@ public sealed class FileStorage : IDisposable
     {
         _stream = new FileStream(
             filePath,
-            FileMode.OpenOrCreate,
+            FileMode.OpenOrCreate
             FileAccess.ReadWrite,
             FileShare.None);
     }
